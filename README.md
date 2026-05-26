@@ -26,19 +26,19 @@ cmake --preset default
 cmake --build --preset default
 ```
 
-The default preset builds the shared library, interactive test tools, and example programs in `_build_/`.
+The default preset builds the shared library, interactive test tools, and example programs in `build/`.
 
 To build just the library:
 
 ```bash
-cmake -S . -B _build_/library-only -DQTUI_BUILD_TESTS=OFF -DQTUI_BUILD_EXAMPLES=OFF
-cmake --build _build_/library-only
+cmake -S . -B build/library-only -DQTUI_BUILD_TESTS=OFF -DQTUI_BUILD_EXAMPLES=OFF
+cmake --build build/library-only
 ```
 
 ## Install
 
 ```bash
-cmake --install _build_
+cmake --install build
 ```
 
 The install step exports a CMake package named `qtui`, so consumers can use:

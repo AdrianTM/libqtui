@@ -5,7 +5,7 @@
             "name": "default",
             "displayName": "Default",
             "generator": "Ninja Multi-Config",
-            "binaryDir": "${sourceDir}/_build_"
+            "binaryDir": "${sourceDir}/build"
         },
         {
             "name": "gcc",

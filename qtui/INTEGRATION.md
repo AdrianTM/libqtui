@@ -26,7 +26,7 @@ Install from the `libqtui` repository root:
 ```bash
 cmake --preset default
 cmake --build --preset default
-cmake --install _build_ --config Debug --prefix /usr/local
+cmake --install build --config Debug --prefix /usr/local
 ```
 
 Then consume it from another CMake project:
