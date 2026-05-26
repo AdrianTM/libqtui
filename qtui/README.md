@@ -6,7 +6,7 @@
 
 - `qtui::TMessageBox`
 - `qtui::TCheckBox`
-- `qtui::TRadioButton` and `qtui::TButtonGroup`
+- `qtui::TRadioButton` and `qtui::TButtonGroup` (exclusive selection group)
 - `qtui::TPushButton`
 - `qtui::TLabel`
 - `qtui::TLineEdit`
